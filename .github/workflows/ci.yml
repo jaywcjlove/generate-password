@@ -18,11 +18,11 @@ jobs:
       - run: npm run build
       - run: npm run doc
       - run: cp README.md core
-      - run: cp -rp core/coverage/lcov-report www/build
 
       - name: Test Case
         working-directory: core
         run: npm run coverage
+      - run: cp -rp core/coverage/lcov-report www/build
 
       - name: Create Coverage Badges
         uses: jaywcjlove/coverage-badges-cli@main
