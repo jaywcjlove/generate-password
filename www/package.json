@@ -11,11 +11,12 @@
   "keywords": [],
   "dependencies": {
     "@uiw/react-markdown-preview": "^4.0.11",
+    "@uiw/react-github-corners": "^1.5.14",
     "@wcj/dark-mode": "^1.0.14",
     "@wcj/generate-password": "1.0.1",
     "markdown-react-code-preview-loader": "^2.1.2",
     "react": "^18.1.0",
-    "react-code-preview-layout": "^2.0.2",
+    "react-code-preview-layout": "^2.0.5",
     "react-dom": "^18.1.0",
     "styled-components": "^5.3.5"
   },

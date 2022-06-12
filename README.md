@@ -103,6 +103,30 @@ export declare function generateMultiple(length?: number, opts?: Option): string
 export declare function validate(password?: string): number;
 ```
 
+## Example
+
+```jsx mdx:preview
+import React, { useState } from 'react';
+import { generate } from '@wcj/generate-password';
+
+const Demo = () => {
+  const [lowerCase, setLowerCase] = useState(true);
+  const opts = { lowerCase };
+  const [password, setPassword] = useState(generate(opts));
+  return (
+    <div>
+      <div>{password}</div>
+      <button onClick={() => setPassword(generate(opts))}>Generate Password</button>
+      <div>
+        <input type="checkbox" checked={lowerCase} onChange={(evn) => setLowerCase(!lowerCase)} />
+      </div>
+    </div>
+  );
+};
+
+export default Demo;
+```
+
 ## Development
 
 ```bash
