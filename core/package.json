@@ -23,6 +23,12 @@
     "test": "tsbb test",
     "coverage": "tsbb test --coverage"
   },
+  "jest": {
+    "coverageReporters": [
+      "lcov",
+      "json-summary"
+    ]
+  },
   "files": [
     "src",
     "cjs",
