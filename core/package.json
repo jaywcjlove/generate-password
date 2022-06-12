@@ -13,7 +13,9 @@
   },
   "keywords": [
     "generate-password",
-    "password"
+    "password",
+    "validate",
+    "generate"
   ],
   "author": "kenny wong <wowohoo@qq.com>",
   "license": "MIT",

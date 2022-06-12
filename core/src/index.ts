@@ -58,6 +58,12 @@ export function generateMultiple(length: number = 10, opts?: Option) {
 
 /**
  * symbols pass with lowercase and uppercase letters, numbers and special characters
+ * @return [0~4]
+ *
+ * `4` Strong :) Now it's safe!
+ * `3` Medium level. Enter more symbols!
+ * `2` Very Weak! It's easy to crack!
+ * `1` It's easy to crack!
  */
 export function validate(password: string = '') {
   // Create an array and push all possible values that you want in password

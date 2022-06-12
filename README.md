@@ -65,15 +65,6 @@ validate('4020810127'); // => 1  It's easy to crack!
 validate(); // => 0
 ```
 
-### generateMultiple
-
-```js
-import { generateMultiple } from '@wcj/generate-password';
-
-generateMultiple(3); // => [ 'eD5$aA1$dB', 'aB2!gC1#jQ', 'aB1@dK1*mH' ]
-generateMultiple(2, { length: 8 }); // => [ 'fJ4@kF3,', 'aE0%gP0;' ]
-```
-
 ## Options
 
 ```ts
@@ -102,8 +93,14 @@ export declare function generate(opts?: Option): string;
 export declare function generateMultiple(length?: number, opts?: Option): string[];
 /**
  * symbols pass with lowercase and uppercase letters, numbers and special characters
+ * @return [0~4]
+ *
+ * `4` Strong :) Now it's safe!
+ * `3` Medium level. Enter more symbols!
+ * `2` Very Weak! It's easy to crack!
+ * `1` It's easy to crack!
  */
-export declare function validate(password: string): number;
+export declare function validate(password?: string): number;
 ```
 
 ## Development
