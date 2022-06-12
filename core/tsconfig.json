@@ -28,6 +28,6 @@
     "target": "es5",
     "typeRoots": ["./node_modules/@types"]
   },
-  "exclude": ["build", "dist", "example", "node_modules", "rollup.config.js"],
+  "exclude": ["build", "dist", "node_modules", "rollup.config.ts"],
   "include": ["src"]
 }

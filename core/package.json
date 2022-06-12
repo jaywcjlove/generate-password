@@ -18,8 +18,8 @@
   "author": "kenny wong <wowohoo@qq.com>",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c rollup.config.js",
-    "watch": "rollup -c rollup.config.js -w",
+    "build": "rollup -c rollup.config.ts",
+    "watch": "rollup -c rollup.config.ts -w",
     "test": "tsbb test",
     "coverage": "tsbb test --coverage"
   },
