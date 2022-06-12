@@ -111,14 +111,39 @@ import { generate } from '@wcj/generate-password';
 
 const Demo = () => {
   const [lowerCase, setLowerCase] = useState(true);
-  const opts = { lowerCase };
+  const [upperCase, setUpperCase] = useState(true);
+  const [numeric, setNumeric] = useState(true);
+  const [special, setSpecial] = useState(true);
+  const [length, setLength] = useState(8);
+  const opts = { lowerCase, upperCase, numeric, special, length };
   const [password, setPassword] = useState(generate(opts));
   return (
     <div>
       <div>{password}</div>
       <button onClick={() => setPassword(generate(opts))}>Generate Password</button>
       <div>
-        <input type="checkbox" checked={lowerCase} onChange={(evn) => setLowerCase(!lowerCase)} />
+        <label>
+          <input type="range" min="8" max="50" value={length} onChange={(evn) => setLength(Number(evn.target.value))} />{' '}
+          {length} length of password.
+        </label>
+        <br />
+        <label>
+          <input type="checkbox" checked={lowerCase} onChange={() => setLowerCase(!lowerCase)} /> Lower Case
+          Letter(a..z)
+        </label>
+        <br />
+        <label>
+          <input type="checkbox" checked={upperCase} onChange={() => setUpperCase(!upperCase)} /> Upper Case
+          Letter(A..Z)
+        </label>
+        <br />
+        <label>
+          <input type="checkbox" checked={numeric} onChange={() => setNumeric(!numeric)} /> Number (0..9)
+        </label>
+        <br />
+        <label>
+          <input type="checkbox" checked={special} onChange={() => setSpecial(!special)} /> Special characters
+        </label>
       </div>
     </div>
   );
