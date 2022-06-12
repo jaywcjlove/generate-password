@@ -9,7 +9,7 @@ const container = document.getElementById('root');
 const root = createRoot(container!);
 root.render(
   <Fragment>
-    <GitHubCorners target="__blank" position="right" fixed href="https://github.com/uiwjs/react-github-corners" />
+    <GitHubCorners target="__blank" position="right" fixed href="https://github.com/jaywcjlove/generate-password" />
     <dark-mode permanent light="Light" dark="Dark"></dark-mode>
     <Markdown {...data} />
   </Fragment>,
