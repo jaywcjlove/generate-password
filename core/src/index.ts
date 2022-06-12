@@ -50,7 +50,9 @@ export function generate(opts: Option = {}) {
 /** Create a random set of passwords */
 export function generateMultiple(length: number = 10, opts?: Option) {
   const result: string[] = [];
-  [...Array(length)].forEach(() => result.push(generate(opts)));
+  for (let i = 0; i < length; i++) {
+    result.push(generate(opts));
+  }
   return result;
 }
 
