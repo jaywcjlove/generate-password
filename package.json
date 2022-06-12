@@ -22,7 +22,7 @@
     "node": ">=16.0.0"
   },
   "workspaces": [
-    "packages/**",
+    "core",
     "www"
   ],
   "lint-staged": {
