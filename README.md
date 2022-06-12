@@ -1,5 +1,12 @@
 # Generate Password
 
+![No Dependencies](http://jaywcjlove.github.io/sb/status/no-dependencies.svg)
+[![npm package](https://img.shields.io/npm/v/@wcj/generate-password.svg)](https://www.npmjs.com/package/@wcj/generate-password)
+[![Coverage Status](https://jaywcjlove.github.io/generate-password/badges.svg)](https://jaywcjlove.github.io/generate-password/lcov-report/)
+[![GitHub Actions CI](https://github.com/jaywcjlove/generate-password/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/generate-password/actions/workflows/ci.yml)
+[![Coverage Status](https://jaywcjlove.github.io/generate-password/badges.svg)](https://jaywcjlove.github.io/generate-password/lcov-report/)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/@wcj/generate-password)](https://bundlephobia.com/result?p=@wcj/generate-password)
+
 Generate Password is a generating random and unique passwords.
 
 ## Install
