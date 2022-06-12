@@ -59,8 +59,8 @@ export default [
     input: 'src/index.ts',
     output: [
       {
-        // file: 'dist/generate-password.min.js',
-        file: `dist/generate-password.v${pkg.version}.min.js`,
+        file: 'dist/generate-password.min.js',
+        // file: `dist/generate-password.v${pkg.version}.min.js`,
         format: 'umd',
         name: 'GeneratePassword',
         banner: banner.onebanner(),
