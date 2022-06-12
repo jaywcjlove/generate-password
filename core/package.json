@@ -1,0 +1,40 @@
+{
+  "name": "@wcj/generate-password",
+  "version": "1.0.0",
+  "description": "Generate Password is a generating random and unique passwords.",
+  "homepage": "https://jaywcjlove.github.io/generate-password",
+  "main": "./cjs/index.js",
+  "module": "./esm/index.js",
+  "unpkg": "./dist/generate-password.js",
+  "typings": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaywcjlove/generate-password.git"
+  },
+  "keywords": [
+    "generate-password",
+    "password"
+  ],
+  "author": "kenny wong <wowohoo@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "watch": "rollup -c rollup.config.js -w",
+    "test": "tsbb test",
+    "coverage": "tsbb test --coverage"
+  },
+  "files": [
+    "src",
+    "cjs",
+    "esm",
+    "dist"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "~22.0.0",
+    "@rollup/plugin-node-resolve": "~13.3.0",
+    "@rollup/plugin-typescript": "~8.3.2",
+    "bannerjs": "~2.1.0",
+    "rollup": "^2.74.1",
+    "rollup-plugin-terser": "~7.0.2"
+  }
+}

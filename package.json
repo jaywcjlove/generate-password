@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "homepage": "https://jaywcjlove.github.io/generate-password",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaywcjlove/generate-password.git"
+  },
+  "private": true,
+  "scripts": {
+    "build": "lerna exec --scope @wcj/* -- npm run build",
+    "⬇️⬇️⬇️⬇️⬇️ package ⬇️⬇️⬇️⬇️⬇️": "▼▼▼▼▼ package ▼▼▼▼▼",
+    "doc": "npm run-script build --workspace website",
+    "start": "npm run-script start --workspace website",
+    "⬆️⬆️⬆️⬆️⬆️ package ⬆️⬆️⬆️⬆️⬆️": "▲▲▲▲▲ package ▲▲▲▲▲",
+    "prepare": "husky install",
+    "version": "lerna version --exact --force-publish --no-push --no-git-tag-version",
+    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
+    "clean": "lerna clean --yes"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "workspaces": [
+    "packages/**",
+    "www"
+  ],
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,less,md,json}": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "husky": "~8.0.0",
+    "lerna": "^5.0.0",
+    "lint-staged": "^13.0.0",
+    "prettier": "~2.6.0",
+    "tsbb": "^3.7.5"
+  }
+}
