@@ -16,6 +16,31 @@ $ npm install @wcj/generate-password --save
 
 ## Usage
 
+```js
+import { generate, generateMultiple, validate } from '@wcj/generate-password';
+
+generate(); // => dK0#vA3@fG
+generate({ length: 23 }); // => bB1@aO7^bF0!aA0~aQ1%aE3
+generateMultiple(2, { length: 8 }); // => [ 'aG6@aC2(', 'dH0{fQ0%' ]
+validate('qK0#dQ3*gG'); // => 4  Strong :) Now it's safe!
+```
+
+Or manually download and link **generate-password.js** in your HTML, It can also be downloaded via [UNPKG](https://unpkg.com/browse/@wcj/generate-password/):
+
+CDN: [UNPKG](https://unpkg.com/browse/@wcj/generate-password/) | [jsDelivr](https://cdn.jsdelivr.net/npm/@wcj/generate-password/)
+
+```html
+<script src="https://unpkg.com/@wcj/generate-password/dist/generate-password.min.js"></script>
+<script type="text/javascript">
+  GeneratePassword.generate(); // => dK0#vA3@fG
+  GeneratePassword.generate({ length: 23 }); // => bB1@aO7^bF0!aA0~aQ1%aE3
+  GeneratePassword.generateMultiple(2, { length: 8 }); // => [ 'aG6@aC2(', 'dH0{fQ0%' ]
+  GeneratePassword.validate('qK0#dQ3*gG'); // => 4,   Strong :) Now it's safe!
+</script>
+```
+
+## API
+
 ### generate
 
 Create a random password
