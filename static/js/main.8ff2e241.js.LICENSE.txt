@@ -77,7 +77,7 @@
  */
 
 /**! 
- * @wcj/generate-password v1.0.2 
+ * @wcj/generate-password v1.0.3 
  * Generate Password is a generating random and unique passwords. 
  * 
  * Copyright (c) 2022 kenny wong <wowohoo@qq.com> 
