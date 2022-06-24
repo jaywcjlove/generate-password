@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
   "name": "website",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "scripts": {
     "start": "kkt start",
@@ -13,7 +13,7 @@
     "@uiw/react-github-corners": "^1.5.14",
     "@uiw/react-markdown-preview": "^4.0.11",
     "@wcj/dark-mode": "^1.0.14",
-    "@wcj/generate-password": "1.0.2",
+    "@wcj/generate-password": "1.0.3",
     "markdown-react-code-preview-loader": "^2.1.2",
     "react": "^18.1.0",
     "react-code-preview-layout": "^2.0.5",
