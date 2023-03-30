@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.b5a0055a.css",
-    "main.js": "/static/js/main.8ff2e241.js",
-    "react-vendor.js": "/static/js/react-vendor.69df5cbf.js",
+    "main.css": "/static/css/main.939e30e1.css",
+    "main.js": "/static/js/main.e340cdf8.js",
+    "react-vendor.js": "/static/js/react-vendor.19ebb7f3.js",
     "index.html": "/index.html",
-    "main.b5a0055a.css.map": "/static/css/main.b5a0055a.css.map",
-    "main.8ff2e241.js.map": "/static/js/main.8ff2e241.js.map",
-    "react-vendor.69df5cbf.js.map": "/static/js/react-vendor.69df5cbf.js.map"
+    "main.939e30e1.css.map": "/static/css/main.939e30e1.css.map",
+    "main.e340cdf8.js.map": "/static/js/main.e340cdf8.js.map",
+    "react-vendor.19ebb7f3.js.map": "/static/js/react-vendor.19ebb7f3.js.map"
   },
   "entrypoints": [
-    "static/js/react-vendor.69df5cbf.js",
-    "static/css/main.b5a0055a.css",
-    "static/js/main.8ff2e241.js"
+    "static/js/react-vendor.19ebb7f3.js",
+    "static/css/main.939e30e1.css",
+    "static/js/main.e340cdf8.js"
   ]
 }
