@@ -5,6 +5,10 @@ import { getMetaId, CodeBlockData, isMeta, getURLParameters } from 'markdown-rea
 import styled from 'styled-components';
 import { Element, Root } from 'react-markdown/lib/ast-to-react';
 
+const Preview = CodeLayout.Preview;
+const Code = CodeLayout.Code;
+const Toolbar = CodeLayout.Toolbar;
+
 const StyleWarpper = styled.div`
   max-width: 720px;
   margin: 0 auto;
@@ -43,8 +47,12 @@ const CodePreview: any = ({ inline, data, node, ...props }: CodePreviewProps) =>
     const code = data.data[metaId].value || '';
     const param = getURLParameters(meta);
     return (
-      <CodeLayout ref={$dom} toolbar={param.title || 'Example'} code={<pre {...rest} />} text={code}>
-        <Child />
+      <CodeLayout>
+        <Preview>
+          <Child />
+        </Preview>
+        <Toolbar>{param.title || 'Code Example'}</Toolbar>
+        <Code>{code}</Code>
       </CodeLayout>
     );
   }
