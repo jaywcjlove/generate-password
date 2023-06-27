@@ -1,5 +1,4 @@
 {
   "version": "1.0.3",
-  "packages": ["core", "www"],
-  "useWorkspaces": true
+  "packages": ["core", "www"]
 }
