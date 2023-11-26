@@ -1,6 +1,6 @@
 {
   "name": "@wcj/generate-password",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generate Password is a generating random and unique passwords.",
   "homepage": "https://jaywcjlove.github.io/generate-password",
   "funding": "https://jaywcjlove.github.io/#/sponsor",
@@ -41,8 +41,8 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.2",
     "@rollup/plugin-node-resolve": "^15.0.0",
-    "@rollup/plugin-typescript": "^11.0.0",
     "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^11.0.0",
     "bannerjs": "~2.1.0",
     "rollup": "^3.0.0"
   }
