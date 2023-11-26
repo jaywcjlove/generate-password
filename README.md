@@ -1,5 +1,6 @@
 # Generate Password
 
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor)
 ![No Dependencies](http://jaywcjlove.github.io/sb/status/no-dependencies.svg)
 [![npm package](https://img.shields.io/npm/v/@wcj/generate-password.svg)](https://www.npmjs.com/package/@wcj/generate-password)
 [![GitHub Actions CI](https://github.com/jaywcjlove/generate-password/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/generate-password/actions/workflows/ci.yml)
@@ -198,7 +199,7 @@ As always, thanks to our amazing contributors!
   <img src="https://jaywcjlove.github.io/generate-password/CONTRIBUTORS.svg" />
 </a>
 
-Made with [action-contributors](https://github.com/jaywcjlove/github-action-contributors).
+Made with [contributors](https://github.com/jaywcjlove/github-action-contributors).
 
 ## License
 

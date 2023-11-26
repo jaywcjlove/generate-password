@@ -3,13 +3,14 @@
   "version": "1.0.3",
   "description": "Generate Password is a generating random and unique passwords.",
   "homepage": "https://jaywcjlove.github.io/generate-password",
+  "funding": "https://jaywcjlove.github.io/#/sponsor",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
   "unpkg": "./dist/generate-password.js",
   "typings": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaywcjlove/generate-password.git"
+    "url": "https://github.com/jaywcjlove/generate-password.git"
   },
   "keywords": [
     "generate-password",
