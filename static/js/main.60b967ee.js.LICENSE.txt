@@ -12,6 +12,8 @@
  * Licensed under the MIT License.
  */
 
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/babel/babel/blob/main/packages/babel-helpers/LICENSE */
+
 /**
  * @license React
  * react-is.production.min.js
@@ -53,10 +55,10 @@
  */
 
 /**! 
- * @uiw/copy-to-clipboard v1.0.17 
+ * @uiw/copy-to-clipboard v1.0.20 
  * Copy to clipboard. 
  * 
- * Copyright (c) 2024 Kenny Wang 
+ * Copyright (c) 2026 Kenny Wang 
  * https://github.com/uiwjs/copy-to-clipboard.git 
  * 
  * @website: https://uiwjs.github.io/copy-to-clipboard
@@ -68,7 +70,7 @@
  * @wcj/generate-password v1.0.4 
  * Generate Password is a generating random and unique passwords. 
  * 
- * Copyright (c) 2024 kenny wong <wowohoo@qq.com> 
+ * Copyright (c) 2026 kenny wong <wowohoo@qq.com> 
  * https://jaywcjlove.github.io/generate-password 
  * Licensed under the MIT license 
  */
